@@ -1,3 +1,5 @@
+package ua.stqa.pft.sandbox;
+
 public class FirstProgram {
 
 
