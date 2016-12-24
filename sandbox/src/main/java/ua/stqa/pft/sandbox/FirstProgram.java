@@ -13,8 +13,8 @@ public class FirstProgram {
        System.out.println("Координаты точки p2: " + p2.x + " и "+ p2.y);
        System.out.println("Расстояние между точками:  "+ p1.Distance(p2));
 
-       double l = 5;
-       System.out.println("Площадь квадрата со стороной " + l + " = " + area(l));
+       Square s = new Square(5);
+       System.out.println("Площадь квадрата со стороной " + s.l + " = " + s.area());
 
        double a = 5;
        double b = 6;
@@ -28,11 +28,11 @@ public class FirstProgram {
 
 
 
-    public  static double area (double len){
-        return len * len;
-    }
+   // public  static double area(Square s){
+  //      return s.l * s.l;
+  //  }
 
-    public static double area (double a, double b){
+    public static double area(double a, double b){
         return a* b;
 
     }
